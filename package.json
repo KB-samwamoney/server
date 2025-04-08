@@ -1,23 +1,10 @@
 {
-  "name": "my-json-server",
+  "name": "json-server-app",
   "version": "1.0.0",
-  "license": "MIT",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "json-server --watch .data/db.json --port 3000"
   },
   "dependencies": {
-    "json-server": "^0.17.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KB-samwamoney/server.git"
-  },
-  "keywords": [],
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/KB-samwamoney/server/issues"
-  },
-  "homepage": "https://github.com/KB-samwamoney/server#readme",
-  "description": ""
+    "json-server": "^0.17.3"
+  }
 }
